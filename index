@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>NUOSUN</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/nsi_logo.png">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Products</a></li>
+          <li><a href="#recent-blog-posts">News</a></li>
+          <li><a class="nav-link scrollto getstarted scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div style="margin-top: 50px;" class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Your reliable One-Stop service provider around MRO needs</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">We are team of workers dedicated to providing you all solutions to your MRO needs</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+   <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a href="https://www.bauergears.com/"><img src="http://nuosun.de/wp-content/uploads/2019/06/bauer-gear-65.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.fuchs-umwelttechnik.com/en/"><img src="http://nuosun.de/wp-content/uploads/2019/01/fuchs_logo-200x54.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.ktr.com/us/"><img src="http://nuosun.de/wp-content/uploads/2019/06/ktr-65.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.boschrexroth.com/en/us/"><img src="http://nuosun.de/wp-content/uploads/2019/06/rexroth-65.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://schunk.com/us_en/homepage/"><img src="http://nuosun.de/wp-content/uploads/2019/06/schunk_logo-65-200x65.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.hydac.com/no-en/start.html"><img src="http://nuosun.de/wp-content/uploads/2019/06/hydac-logo-65-200x52.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://roemheld-usa.com/"><img src="http://nuosun.de/wp-content/uploads/2019/06/roemheld-logo-65.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""https://www.knoll-mb.de/en/><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/KNOLL_Logo.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>NUOSUN is a one-stop service provider in MRO Goods. </h2>
+              <p>
+                For 15 years, NUOSUN has had a wealth of experience in MRO goods. We offer maintenance, repair and operation from a single source. Our customers are mainly companies from the automotive industry, the energy sector, aerospace, mechanical engineering, electronic manufacturing, petrochemicals as well as universities and academies. Competent advice, service orientation and adherence to deadlines are what set us apart. Just as much as the love of detail. Whoever works at NUOSUN is an expert on the subject of MRO and is passionate about it. Let us inspire you and benefit from the highest quality and a wealth of ideas. We are your "industry partner"!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="fa fa-coffee" aria-hidden="true"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Kilograms of coffee and tea comsumed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-cart-check" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Million parts delivered total</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-calendar-date" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Years of experience and service</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="fa fa-clock-o" aria-hidden="true" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="5341" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Orders delivered on time</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Nuosun has the most in-place features <br> you'll ever experience</p>
+        </header>          
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>Industrial Equipments and IoT installation from Nuosun provides all services from opration to repair.</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Installation</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Maintanence</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Support</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab4">Consulting</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+                <p>Our professional technical service team has gone through strict product and technical training, mastered professional knowledge and skills with a lot of experience, and can provide a variety of on-site installation and commissioning services.</p>
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+                <p>We can provide the following services:</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>develop and implement professional maintenance plans according to the operation status of equipment.</h4>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>provide various maintenance services</h4>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>make spare parts plan and provide spare parts procurement, storage and distribution services.</h4>
+                </div>
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+                <p>We are able to provide technical engineering services for various industrial equipment, such as specific engineering design, manufacturing and delivery of products, installation, and commissioning.</p>
+              </div><!-- End Tab 3 Content -->
+
+              <div class="tab-pane fade show" id="tab4">
+                <p>We are able to provide with professional pre- and after-sales technical services to ensure that our customers choose the right products and make good use of them.</p>
+              </div><!-- End Tab 4 Content -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img style="margin-top:60px; margin-left: 100px; width:400px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/Services.svg" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>Nuosun provides you the most top-notch <br> services you'll ever see</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <i class="bi-people icon"></i>
+              <h3>As a bridge</h3>
+              <p>We work closely with European and American small or medium enterprises, and serves as a bridge for selling oversea's industrial products to China.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <i class="bi-door-open icon"></i>
+              <h3>Technical Support</h3>
+              <p>We offer technical consultation, service support and sourcing solutions</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <i class="bi bi-hdd-network icon"></i>
+              <h3>One-stop Service</h3>
+              <p>We offer you one-stop purchasing experience. Fast, secure and efficient!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box red">
+              <i class="bi bi-boxes icon"></i>
+              <h3>B2B Platform</h3>
+              <p>We build an industrial MRO B2B platform: fast and accurate delivery and reduce time costs.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box purple">
+              <i style="padding: 37px 20px;" class="ri-service-line icon"></i>
+              <h3>Service Team</h3>
+              <p>We have a professional service team with 10 agencies in China alone. We constantly train our service personnel at our key suppliers so that they can help the end customers solve after-sales problems.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <i class="bi-box-seam icon"></i>
+              <h3>Stock Management</h3>
+              <p>Our warehouse management system records, controls and monitors all storage and retrieval processes in order to optimise excessive inventory and improve inventory turnover.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Products</h2>
+          <p>Check our MRO products</p>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-solutions">Solutions</li>
+              <li data-filter=".filter-systems">Systems</li>
+              <li data-filter=".filter-technology">Technology</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solutions">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Drive Solutions.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Drive Solutions</h4>
+                <p>Motor, gearbox, control, coupling, encoder, and accessories</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-systems">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Filter System.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Filter System</h4>
+                <p>Extraction unit, air purification unit and accessories</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solutions">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Hydraulic System.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hydraulic Solutions</h4>
+                <p>Hydraulic pumps, hydraulic cylinders, valves, hydraulic lines, controls</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-systems">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Peumatic System.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pneumatic Systems</h4>
+                <p>Compressed air system, valves, controls</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-solutions">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Sensoren.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sensor Solutions</h4>
+                <p>Pressure sensor, position sensor, temperature sensor, and accelerometer</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-technology">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Electric Tech.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Electric Technology</h4>
+                <p>Connectors, switches, relays, MEMS devices, capacitors, regulators, and amplifiers.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-technology">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Clamping Tech.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Clamping Technology</h4>
+                <p>Clamping jaws, chucks, tool turrets and accessories</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-systems">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/Gripping System.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gripping Systems</h4>
+                <p>Gripper, robot accessories, vacuum gripping system</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-technology">
+            <div class="portfolio-wrap">
+              <img src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/products/PLC.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PLC Technology</h4>
+                <p>Programmable Logical Control</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Team</h2>
+          <p>Our hard working team</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img style="width: 130px; margin-top: 30px; margin-bottom: 25px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/team/Jun Feng.svg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Jim Feng</h4>
+                <span>Chief Executive Officer</span>
+                <p>Founder of NUOSUN and NS-Box. He graduated with honors from Shanghai Jiao Tong University and University of British Columbia. He majored in electrical engineering and math. Since 2004, he has been travelling around the world and greeting his clients with gratitude. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img style="width: 140px; margin-top: 30px; margin-bottom: 20px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/team/Vivian Zhou.svg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Vivian Zhou</h4>
+                <span>Business Development Manager</span>
+                <p>Since the founding of NUOSUN Inc, she has been co-working with Jim Feng and is currently managing NUOSUN's business developement. She graduated with a master's degree from Fudan University and Hamburg University and majored in international busniess and economics.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img style="width: 150px; margin-top: 50px; margin-bottom: 30px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/team/Vincent Feng.svg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Vincent Feng</h4>
+                <span>Website Designer</span>
+                <p>He has been programming in HTML, CSS, Javascript and Lua, and has created multiple platforms as personal projects.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img style="width: 150px; margin-top: 20px; margin-bottom: 30px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/team/James Yang.svg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>James Yang</h4>
+                <span>General Manager</span>
+                <p>James Yang graduated from Shanghai Finance and Economics University and majored in supply chain. He joined NUOSUN in 2009 and has been managing NUOSUN's puchasing and sales for more than 10 years.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>News</h2>
+          <p>Recent News</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/Smart Solution.jpg" class="img-fluid" alt=""></div>
+              <span class="post-date">2021-12-23</span>
+              <h3 class="post-title">ns-Box smart solution award</h3>
+              <a href="News-Award.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/Wastewater Treatment.png" class="img-fluid" alt=""></div>
+              <span class="post-date">2021-02-20</span>
+              <h3 class="post-title">Wastewater Treatment Solutions</h3>
+              <a href="News-Solution.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/New Site.jpg" class="img-fluid" alt=""></div>
+              <span class="post-date">2021-02-12</span>
+              <h3 class="post-title">Nuosun US moves to a new site</h3>
+              <a href="News-New Site.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Recent Blog Posts Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>4840 Irvine Blvd<br>California 92620</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 949 501 5356<br>+1 949 620 8085</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@nuosun.us</p><br>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday<br>9:00AM - 5:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input style="border-radius: 5px;" type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input style="border-radius: 5px;" type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input style="border-radius: 5px;" type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea style="border-radius: 5px;" class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img style="margin-left:-5px;" src="C:/Users/Vivian/Downloads/NUOSUN/assets/img/nsi_logo.png">
+            </a>
+            <p>As a complete service provider in MRO needs, NUOSUN has been supplying clients the most top-notch services around.</p>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Installation</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Maintanence</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Support</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Consulting</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Management</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              4840 Irvine Blvd, Ste 205<br>
+              Irvine, CA 92620<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 949 501 5356<br>
+              <strong>Email:</strong> info@nuosun.us<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>NSI</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Anonymous Coder
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
